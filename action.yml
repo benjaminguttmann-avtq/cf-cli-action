@@ -19,6 +19,9 @@ inputs:
   cf_space:
     description: "Target Space"
     required: false
+  skip_ssl_validation:
+    description: "Skip SSL Validation"
+    required: true
   command:
     description: "Command to run using CF CLI"
     required: true
